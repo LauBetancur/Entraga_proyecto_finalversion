@@ -29,7 +29,7 @@
     max-width: 100%;
     min-height: 480px;
   }
-  .container-color {
+  .container--color {
     background-color: #705695;
     display: flex;
     border: none;
@@ -64,7 +64,7 @@
     left: 1rem;
   }
   
-  .container_child {
+  .container__child {
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -75,7 +75,7 @@
     width: 35%;
     margin-left: 1.5rem;
   }
-  .container_child_logo {
+  .container__child__logo {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -98,7 +98,7 @@
     height: auto;
   }
   
-  .container_child_title {
+  .container__child__title {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -109,14 +109,14 @@
     padding: 1rem, 2rem;
     margin-left: 0;
   }
-  #tittle_log {
+  #tittle__log {
     font-size: 1.4rem;
     margin-left: 1.6rem;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
   }
-  .container_child_info {
+  .container__child__info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -128,7 +128,7 @@
     margin-left: 0;
     margin-top: 0.5rem;
   }
-  .info_email {
+  .info__email {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -139,7 +139,7 @@
     margin-left: 0;
     margin-bottom: 0rem;
   }
-  .email-content {
+  .email--content {
     margin-left: 1.5rem;
   }
   
@@ -169,7 +169,7 @@
   .placeholder {
     margin-left: -1rem;
   }
-  .info_password {
+  .info__password {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -182,10 +182,10 @@
     margin-left: 0;
     margin-bottom: 0rem;
   }
-  .password-content {
+  .password--content {
     margin-left: 1.5rem;
   }
-  .info_href {
+  .info__href {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -198,7 +198,7 @@
     margin-left: 1.5rem;
     margin-bottom: 0rem;
   }
-  .href_forgot {
+  .href__forgot {
     display: flex;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
@@ -209,7 +209,7 @@
   a:hover {
     text-decoration: #472a73;
   }
-  .info_signin {
+  .info__signin {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -240,7 +240,7 @@
     height: 4.5vh;
   }
   
-  .container_child_additional {
+  .container__child__additional {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -252,7 +252,7 @@
     margin-left: 0;
     margin-top: 0.2rem;
   }
-  .container_additional_spam {
+  .container__additional__spam {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -262,7 +262,7 @@
     border: none;
     border-color: darkgreen;
   }
-  .container_additional_sites {
+  .container__additional__sites {
     margin-left: 0.5rem;
   
     display: flex;
@@ -275,7 +275,7 @@
     border-color: rgb(199, 58, 161);
   }
   
-  .additional_sites_google {
+  .additional__sites__google {
     margin-right: 0.6rem;
     display: flex;
     flex-direction: column;
@@ -306,7 +306,7 @@
     width: 17px;
     height: 17px;
   }
-  .additional_sites_git {
+  .additional__sites__git {
     margin-right: 0.6rem;
     display: flex;
     flex-direction: column;
@@ -316,7 +316,7 @@
     height: 100%;
     border: none;
   }
-  .additional_sites_facebook {
+  .additional__sites__facebook {
     margin-right: 0.6rem;
     display: flex;
     flex-direction: column;
@@ -326,7 +326,7 @@
     height: 100%;
     border: none;
   }
-  .container_additional_register {
+  .container__additional__register {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -339,7 +339,7 @@
     margin-bottom: 0rem;
   }
   
-  .additional_register-href {
+  .additional__register--href {
     display: flex;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
