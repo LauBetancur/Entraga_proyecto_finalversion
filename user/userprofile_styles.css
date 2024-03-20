@@ -25,7 +25,7 @@
     min-height: 480px;
     background-color: white;
   }
-  .child_container_accountsettings {
+  .child__container__accountsettings {
     margin-left: 1.5rem;
     position: absolute;
     align-items: center;
@@ -38,44 +38,44 @@
     transform: translateY(-50%);
     flex-direction: column;
   }
-  .accountsettings_tittle {
+  .accountsettings__tittle {
     display: flex;
     width: 100%;
     height: 10vh;
     align-content: center;
     align-items: center;
   }
-  #accountsettings_tittle-account {
+  #accountsettings__tittle--account {
     margin-left: 1.5rem;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 1.4rem;
     color: #414042;
   }
-  .accountsettings_fullnames {
+  .accountsettings__fullnames {
     margin-left: 1.5rem;
     display: flex;
     width: 100%;
     height: 10vh;
     flex-direction: row;
   }
-  .fullnames-firstname {
+  .fullnames--firstname {
     display: flex;
     flex-direction: column;
     margin-right: 3rem;
   }
-  .fullnames-lastname {
+  .fullnames--lastname {
     display: flex;
     flex-direction: column;
   }
-  .child_container_userprofile {
+  .child__container__userprofile {
     margin-left: 1.5rem;
     display: flex;
     width: 100%;
     height: 33vh;
     flex-direction: column;
   }
-  .userprofile-email {
+  .userprofile--email {
     display: flex;
     margin-top: 0.5rem;
     margin-bottom: 0.2rem;
@@ -90,21 +90,21 @@
     font-style: normal;
     font-size: 0.8rem;
   }
-  .userprofile-password {
+  .userprofile--password {
     margin-top: 0.3rem;
     display: flex;
     width: 100%;
     height: 9vh;
     flex-direction: column;
   }
-  .userprofile-newpassword {
+  .userprofile--newpassword {
     margin-top: 0.2rem;
     display: flex;
     width: 100%;
     height: 9vh;
     flex-direction: column;
   }
-  .child_container_confirnbtn {
+  .child__container__confirnbtn {
     margin-left: 1.5rem;
     align-items: center;
     display: flex;
@@ -112,18 +112,18 @@
     height: 5vh;
     flex-direction: column;
   }
-  .child_container_confirnbtn {
+  .child__container__confirnbtn {
     display: flex;
     flex-direction: row;
   }
-  .confirnbtn-change {
+  .confirnbtn--change {
     display: flex;
     width: 10vw;
     height: 10vh;
     align-items: center;
     justify-content: flex-start;
   }
-  .confirnbtn-cancel {
+  .confirnbtn--cancel {
     display: flex;
     width: 10vw;
     height: 10vh;
@@ -199,7 +199,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .card_pfp {
+  .card__pfp {
     width: 110px;
     height: 110px;
     border-radius: 50%;
@@ -210,11 +210,11 @@
     background-position: center center;
     margin-top: 6vh;
   }
-  .card_pfp-name {
+  .card__pfp--name {
     color: #fff;
     font-size: 1.4rem;
   }
-  #pfp-name-username {
+  #pfp--name--username {
     color: #414042;
     font-size: 1.4rem;
     margin-top: 2vh;
@@ -223,10 +223,10 @@
     font-style: normal;
     letter-spacing: 0.031rem;
   }
-  .card_pfp-desc {
+  .card__pfp--desc {
     margin-top: 1.3vh;
   }
-  #desc-btn {
+  #desc--btn {
     color: #fff;
     background-color: #452870;
     font-size: 0.875rem;
@@ -278,10 +278,10 @@
     width: 7vw;
     height: 4.7vh;
   }
-  .card_pfp-logo {
+  .card__pfp--logo {
     margin-top: 18vh;
   }
-  #card_pfp-logo-jjk {
+  #card__pfp-logo--jjk {
     width: 120px;
     height: auto;
     padding: 0.5rem;
