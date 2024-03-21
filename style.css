@@ -95,11 +95,7 @@ nav img{
  .text-box p{
    
     margin: 1.625rem 0 2.5rem ;
-<<<<<<< HEAD
-    font-size:0.938rem; ;
-=======
-    font-size:0.938rem ;
->>>>>>> 3fb9ebece3597ceeb670f05a713bb7857763dc15
+    font-size:0.938rem;
    }
     
  .started-btn{
@@ -108,11 +104,7 @@ nav img{
    text-decoration: none;
    color: white;
    border: 0.063rem;
-<<<<<<< HEAD
    padding: 0.75rem;
-=======
-   padding: 10.75rem;
->>>>>>> 3fb9ebece3597ceeb670f05a713bb7857763dc15
    background: transparent;
    position: relative;
    cursor: pointer;
